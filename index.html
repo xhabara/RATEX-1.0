@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+<style>
+  /* Common styles for all sliders */
+  #delaySlider, #rateSlider1, #rateSlider2, #rateSlider3, #rateSlider4, #rateSlider5, #rateSlider6 {
+    -webkit-appearance: none;
+    width: 50%;
+    height: 15px;
+    background: #6E6969;
+    outline: none;
+    opacity: 0.5;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    cursor: pointer;
+  }
+
+  /* Hover effect for all sliders */
+  #delaySlider:hover, #rateSlider1:hover, #rateSlider2:hover, #rateSlider3:hover, #rateSlider4:hover, #rateSlider5:hover, #rateSlider6:hover {
+    opacity: 1;
+  }
+
+  /* Thumb style for delaySlider */
+  #delaySlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #00BCD4;
+    cursor: pointer;
+  }
+
+  /* Thumb styles for rateSliders */
+  #rateSlider1::-webkit-slider-thumb, #rateSlider2::-webkit-slider-thumb, #rateSlider3::-webkit-slider-thumb, #rateSlider4::-webkit-slider-thumb, #rateSlider5::-webkit-slider-thumb, #rateSlider6::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #FF9800;  /* Going green, baby! */
+    cursor: pointer;
+  }
+</style>
+
+  </head>
+  <body>
+    <main>
+    </main>
+    <script src="sketch.js"></script>
+  </body>
+</html>

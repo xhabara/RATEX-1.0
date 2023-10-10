@@ -1,0 +1,81 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+.mySlider {
+  width: 300px !important;  
+}
+.volumeSlider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 250px; /* Specific width adjustments */
+  height: 6px; /* Thickness */
+  background: #2F4C30; /* Background color */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Transparency */
+  transition: opacity .2s; /* Transition effect */
+}
+
+.volumeSlider:hover {
+  opacity: 1; /* Full opacity on hover */
+}
+
+.volumeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 10px; /* Set a specific slider handle width */
+  height: 10px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.volumeSlider::-moz-range-thumb {
+  width: 16px; /* Width of the handle */
+  height: 16px; /* Height of the handle */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+
+
+.xoffStyle {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 250px;
+  height: 8.4px;
+  background: #6D6868;
+  border-radius: 1.3px;
+  outline: none;
+}
+
+.xoffStyle:hover {
+  background: #ddd;
+}
+
+.xoffStyle::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #FF5733;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.xoffStyle::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #FF5733;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.xoffStyle::-ms-thumb {
+  width: 15px;
+  height: 15px;
+  background: #FF5733;
+  border-radius: 0%;
+  cursor: pointer;
+}
